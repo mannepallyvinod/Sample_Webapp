@@ -1,7 +1,7 @@
 pipeline {
   agent any {
     environment {
-      Path = "C:\apache-maven-3.8.6\bin:$Path"
+      Path = "C:\\apache-maven-3.8.6\\bin:$Path"
     }
     stages {
       stage('SCM_chekcout') {
